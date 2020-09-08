@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container {
+      position: relative;
+      width: 60%;
+      height: 0;
+      padding-bottom: 40%; 
+      border-radius: 10px;
+      margin: 20px auto;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, .3), 0 0 20px rgba(0, 0, 0, 0.1) inset;;
+    }
+    #start {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      left: 50%;
+      top: 70%;
+      transform: translateX(-50%);
+      border: 1px solid #000;
+      border-radius: 30px;
+      box-sizing: border-box;
+      padding: 0 5%;
+      cursor: pointer;
+    }
+    #title {
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      transform: translateX(-50%);
+      font-size: 40px;
+    }
+    #title h1 {
+      margin: 0;
+      padding: 0;
+      letter-spacing: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="title">
+      <h1>SCRIPT</h1>
+      <h1>BATTLE</h1>
+    </div>
+    <div id="start">START</div>
+    <!-- <div id="main"></div> -->
+  </div>
+
+  <script src="UI.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+</html>
